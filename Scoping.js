@@ -1,3 +1,7 @@
+//travis code
+export DISPLAY =: 99.0
+sh -e /etc/init.d/xvfb start
+
 //GitHub tests: Scoping
 function request(callback) {
 		return eval(callback)();
