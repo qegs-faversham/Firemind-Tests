@@ -1,3 +1,7 @@
+//travis code
+export DISPLAY =: 99.0
+sh -e /etc/init.d/xvfb start
+
 //GitHub tests: Flatten an array
 function flattenArray(array) { 
 	return String(array).split(',').map(Number);
